@@ -6,7 +6,7 @@ assignees:
   - placeholder
 body:
   - type: input
-    id: "Submitting_Author"
+    id: "submitting_author"
     attributes:
       label: Submitting Author
       description: Author Name
@@ -80,7 +80,7 @@ body:
     validations:
       required: true
   - type: checkboxes
-    id: ""category"
+    id: "category"
     attributes:
       label: category
       description: Please one category or categories. Check out our [package scope page][PackageCategories] to learn more about our scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
