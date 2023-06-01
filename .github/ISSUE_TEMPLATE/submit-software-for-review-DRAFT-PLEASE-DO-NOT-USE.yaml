@@ -83,7 +83,7 @@ body:
     id: "category"
     attributes:
       label: category
-      description: Please one category or categories. Check out our [package scope page][PackageCategories] to learn more about our scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):
+      description: "Please one category or categories. Check out our [package scope page][PackageCategories] to learn more about our scope. (If you are unsure of which category you fit, we suggest you make a pre-submission inquiry):"
       options:
         - label: Data retrieval
           required: true
@@ -120,7 +120,7 @@ body:
     id: "community_partnerships"
     attributes:
       label: Community partnerships
-      description: If your package is associated with an existing community please check below
+      description: "If your package is associated with an existing community please check below:"
       options:
         - label: [Pangeo][pangeoWebsite]
           required: true
@@ -154,7 +154,7 @@ body:
     id: "presubmission"
     attributes:
       label: pre-submission enquiry
-      description: If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or `@tag` the editor you contacted:
+      description: "If you made a pre-submission enquiry, please paste the link to the corresponding issue, forum post, or other discussion, or `@tag` the editor you contacted:"
       placeholder: link here
     validations:
       required: true
@@ -162,7 +162,7 @@ body:
     id: "technical_checks"
     attributes:
       label: Technical checks
-      description: For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box. This package:
+      description: "For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box. This package:""
       options:
         - label: does not violate the Terms of Service of any service it interacts with. 
           required: true
