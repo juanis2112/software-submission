@@ -14,7 +14,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: "Maintainer 1"
+    id: "maintainer1"
     attributes:
       label: Maintainer 1
       description: GitHub handle for the first mantainer
@@ -22,7 +22,7 @@ body:
     validations:
       required: true
   - type: textarea
-  id: "Maintainer 2"
+  id: "maintainer2"
   attributes:
     label: Maintainer 2
     description: GitHub handle for the second mantainer
@@ -30,7 +30,7 @@ body:
   validations:
     required: true
   - type: input
-    id: "Package_Name"
+    id: "package_name"
     attributes:
       label: Package Name
       description: Package name here
@@ -38,7 +38,7 @@ body:
     validations:
       required: true
   - type: input
-    id: "One_line_desc"
+    id: "one_line_desc"
     attributes:
       label: One-Line Description of Package
       description: One-Line Description of Package
@@ -46,7 +46,7 @@ body:
     validations:
       required: true
   - type: input
-    id: "Repository Link"
+    id: "repository_link"
     attributes:
       label: Repository Link
       description: Link to the package repository
@@ -54,7 +54,7 @@ body:
     validations:
       required: true
   - type: input
-    id: "Version submitted"
+    id: "version_submitted"
     attributes:
       label: Version submitted
       description: Version submitted
@@ -178,4 +178,3 @@ body:
           required: true
         - label: has continuous integration setup, such as GitHub Actions CircleCI, and/or others.
           required: true
-          
