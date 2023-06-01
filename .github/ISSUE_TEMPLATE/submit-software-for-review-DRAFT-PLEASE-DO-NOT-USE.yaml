@@ -22,13 +22,13 @@ body:
     validations:
       required: true
   - type: textarea
-  id: "maintainer2"
-  attributes:
-    label: Maintainer 2
-    description: GitHub handle for the second mantainer
-    placeholder: github_handle2
-  validations:
-    required: true
+    id: "maintainer2"
+    attributes:
+      label: Maintainer 2
+      description: GitHub handle for the second mantainer
+      placeholder: github_handle2
+    validations:
+      required: true
   - type: input
     id: "package_name"
     attributes:
