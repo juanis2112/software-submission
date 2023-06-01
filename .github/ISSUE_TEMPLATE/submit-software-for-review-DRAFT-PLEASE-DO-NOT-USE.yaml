@@ -124,6 +124,7 @@ body:
       options:
         - label: "[Pangeo][pangeoWebsite]"
           required: true
+          options:
           - label: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
             required: true
   - type: textarea
