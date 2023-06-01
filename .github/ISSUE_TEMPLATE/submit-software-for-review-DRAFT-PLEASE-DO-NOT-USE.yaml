@@ -122,7 +122,7 @@ body:
       label: Community partnerships
       description: "If your package is associated with an existing community please check below:"
       options:
-        - label: [Pangeo][pangeoWebsite]
+        - label: "[Pangeo][pangeoWebsite]"
           required: true
           - label: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
             required: true
