@@ -124,9 +124,8 @@ body:
       options:
         - label: "[Pangeo][pangeoWebsite]"
           required: true
-          options:
-          - label: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
-            required: true
+        - label: My package adheres to the [Pangeo standards listed in the pyOpenSci peer review guidebook][PangeoCollaboration]
+          required: true
   - type: textarea
     id: "category_explanation"
     attributes:
@@ -167,7 +166,7 @@ body:
       options:
         - label: does not violate the Terms of Service of any service it interacts with. 
           required: true
-        - label: uses an [OSI approved license][OsiApprovedLicense].
+        - label: "uses an [OSI approved license][OsiApprovedLicense]."
           required: true
         - label: contains a README with instructions for installing the development version. 
           required: true
