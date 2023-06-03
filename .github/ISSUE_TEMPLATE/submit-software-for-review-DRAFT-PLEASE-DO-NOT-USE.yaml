@@ -187,7 +187,7 @@ body:
       options:
         - label: "The package has an **obvious research application** according to JOSS's definition in their [submission requirements][JossSubmissionRequirements]. Be aware that completing the pyOpenSci review process **does not** guarantee acceptance to JOSS. Be sure to read their submission requirements (linked above) if you are interested in submitting to JOSS."
           required: true
-        - label: "The package is not a "minor utility" as defined by JOSS's [submission requirements][JossSubmissionRequirements]: "Minor ‘utility’ packages, including ‘thin’ API clients, are not acceptable." pyOpenSci welcomes these packages under "Data Retrieval", but JOSS has slightly different criteria."
+        - label: "The package is not a 'minor utility' as defined by JOSS's [submission requirements][JossSubmissionRequirements]: 'Minor ‘utility’ packages, including ‘thin’ API clients, are not acceptable.' pyOpenSci welcomes these packages under 'Data Retrieval', but JOSS has slightly different criteria."
           required: true
         - label: "The package contains a `paper.md` matching [JOSS's requirements][JossPaperRequirements] with a high-level description in the package root or in `inst/`."
           required: true
