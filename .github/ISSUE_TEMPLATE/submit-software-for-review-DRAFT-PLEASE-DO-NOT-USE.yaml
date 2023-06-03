@@ -162,8 +162,7 @@ body:
     id: "technical_checks"
     attributes:
       label: Technical checks
-      description: "For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box. This package:"
-      **Do not submit your package separately to JOSS.**
+      description: "For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box. This package: **Do not submit your package separately to JOSS.**"
       options:
         - label: does not violate the Terms of Service of any service it interacts with. 
           required: true
