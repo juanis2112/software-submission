@@ -208,12 +208,16 @@ body:
     id: "survey"
     attributes:
       label: Survey
-      description: "[Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
-      required: true
+      description: Please fill out our survey
+      options:
+        - label: "[Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
+          required: true
   - type: textarea
     id: "feedback"
     attributes:
       label: Feedback
       description: Have feedback/comments about our review process? Leave a comment [here][Comments]
       placeholder: comments
+    validations:
+      required: true
 
