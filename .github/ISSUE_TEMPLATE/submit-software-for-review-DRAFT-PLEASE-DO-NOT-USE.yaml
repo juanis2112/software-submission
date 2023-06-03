@@ -163,6 +163,7 @@ body:
     attributes:
       label: Technical checks
       description: "For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box. This package:"
+      Note:  Do not submit your package separately to JOSS.
       options:
         - label: does not violate the Terms of Service of any service it interacts with. 
           required: true
@@ -178,3 +179,43 @@ body:
           required: true
         - label: has continuous integration setup, such as GitHub Actions CircleCI, and/or others.
           required: true
+  - type: checkboxes
+    id: "publication_options"
+    attributes:
+      label: Publication Options
+      description: "Do you wish to automatically submit to the [Journal of Open Source Software][JournalOfOpenSourceSoftware]? If so:"
+      options:
+        - label: "The package has an **obvious research application** according to JOSS's definition in their [submission requirements][JossSubmissionRequirements]. Be aware that completing the pyOpenSci review process **does not** guarantee acceptance to JOSS. Be sure to read their submission requirements (linked above) if you are interested in submitting to JOSS."
+          required: true
+        - label: "The package is not a "minor utility" as defined by JOSS's [submission requirements][JossSubmissionRequirements]: "Minor ‘utility’ packages, including ‘thin’ API clients, are not acceptable." pyOpenSci welcomes these packages under "Data Retrieval", but JOSS has slightly different criteria."
+          required: true
+        - label: "The package contains a `paper.md` matching [JOSS's requirements][JossPaperRequirements] with a high-level description in the package root or in `inst/`."
+          required: true
+        - label: "The package is deposited in a long-term repository with the DOI:"  
+          required: true
+  - type: checkboxes
+    id: "reviewer_options"
+    attributes:
+      label: Reviewer Options
+      description: "Are you OK with Reviewers Submitting Issues and/or pull requests to your Repo Directly?"
+      Tip: This option will allow reviewers to open smaller issues that can then be linked to PR's rather than submitting a more dense text based review. It will also allow you to demonstrate addressing the issue via PR links.
+      options:
+        - label: Yes I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
+          required: true
+        - label: I have read the [author guide](https://www.pyopensci.org/software-peer-review/how-to/author-guide.html). 
+          required: true
+        - label: I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
+          required: true
+- type: checkboxes
+    id: "survey"
+    attributes:
+      label: Survey
+      description: "[Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
+      required: true
+- type: textarea
+  id: "feedback"
+  attributes:
+    label: Feedback
+    description: Have feedback/comments about our review process? Leave a comment [here][Comments]
+    placeholder: comments
+
