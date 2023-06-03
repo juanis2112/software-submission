@@ -207,11 +207,11 @@ body:
         - label: I expect to maintain this package for at least 2 years and can help find a replacement for the maintainer (team) if needed.
           required: true
 - type: checkboxes
-    id: "survey"
-    attributes:
-      label: Survey
-      description: "[Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
-      required: true
+  id: "survey"
+  attributes:
+    label: Survey
+    description: "[Last but not least please fill out our pre-review survey](https://forms.gle/F9mou7S3jhe8DMJ16). This helps us track submission and improve our peer review process. We will also ask our reviewers and editors to fill this out."
+    required: true
 - type: textarea
   id: "feedback"
   attributes:
