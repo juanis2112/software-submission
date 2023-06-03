@@ -163,7 +163,7 @@ body:
     attributes:
       label: Technical checks
       description: "For details about the pyOpenSci packaging requirements, see our [packaging guide][PackagingGuide]. Confirm each of the following by checking the box. This package:"
-      Note:  Do not submit your package separately to JOSS.
+      **Do not submit your package separately to JOSS.**
       options:
         - label: does not violate the Terms of Service of any service it interacts with. 
           required: true
@@ -197,8 +197,7 @@ body:
     id: "reviewer_options"
     attributes:
       label: Reviewer Options
-      description: "Are you OK with Reviewers Submitting Issues and/or pull requests to your Repo Directly?"
-      Tip: This option will allow reviewers to open smaller issues that can then be linked to PR's rather than submitting a more dense text based review. It will also allow you to demonstrate addressing the issue via PR links.
+      description: "Are you OK with Reviewers Submitting Issues and/or pull requests to your Repo Directly? This option will allow reviewers to open smaller issues that can then be linked to PR's rather than submitting a more dense text based review. It will also allow you to demonstrate addressing the issue via PR links."
       options:
         - label: Yes I am OK with reviewers submitting requested changes as issues to my repo. Reviewers will then link to the issues in their submitted review.
           required: true
