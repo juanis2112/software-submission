@@ -72,9 +72,9 @@ body:
         - label: I have read and will commit to package maintenance after the review as per the [pyOpenSci Policies Guidelines](https://www.pyopensci.org/software-peer-review/our-process/policies.html#after-acceptance-package-ownership-and-maintenance).
           required: true
   - type: textarea
-    id: "Description"
+    id: "description"
     attributes:
-      label: description
+      label: Description
       description: Include a brief paragraph describing what your package does
       placeholder: description here
     validations:
@@ -210,6 +210,6 @@ body:
       label: Feedback
       description: "Have feedback/comments about our review process? Leave a comment [here](https://pyopensci.discourse.group/)"
       options:
-            - label: I have submitted comments in the survey
-              required: false
+        - label: I have submitted comments in the survey
+          required: false
  
