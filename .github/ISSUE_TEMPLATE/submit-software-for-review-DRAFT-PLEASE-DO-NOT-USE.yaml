@@ -169,7 +169,7 @@ body:
         - label: I don't want to automatically submit to JOSS.
           required: false
   - type: checkboxes
-    id: "publication_options"
+    id: "publication_options2"
     attributes:
       label: Publication Options
       description: "If you want to automatically submit your package to JOSS, please confirm each of the following by checking the box:" 
