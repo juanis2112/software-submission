@@ -158,7 +158,7 @@ body:
           required: false
         - label: has continuous integration setup, such as GitHub Actions CircleCI, and/or others.
           required: false
-  - type: selectize
+  - type: select
     id: "publication_options"
     attributes:
       label: Publication Options
