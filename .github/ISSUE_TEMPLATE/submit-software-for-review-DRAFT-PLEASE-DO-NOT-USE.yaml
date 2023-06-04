@@ -157,15 +157,6 @@ assignees: ''
           required: false
         - label: has continuous integration setup, such as GitHub Actions CircleCI, and/or others.
           required: false
-    type: select.selectize
-    label: Target
-    description: Target browser window when item is clicked.
-    placeholder: 'Select...'
-    default: _blank
-    options:
-        _parent: Self
-        _blank: New Window
-
   - type: select.selectize
     id: "publication_options"
     attributes:
@@ -174,10 +165,7 @@ assignees: ''
       options:
         - _true: I want to automatically submit to JOSS.
         - _false: I don't want to automatically submit to JOSS.
-
-
-
-- type: checkboxes
+  - type: checkboxes
     id: "publication_options"
     attributes:
       label: Publication Options
