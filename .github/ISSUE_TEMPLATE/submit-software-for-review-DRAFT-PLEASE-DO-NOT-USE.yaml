@@ -2,7 +2,8 @@ name:  Submit Software for Review
 description:  Use to submit your Python package for pyOpenSci peer review
 title: 'Feature: '
 labels: ['editor-checks', 'New Submission!']
-assignees: ''
+assignees: 
+  - placeholder
 body:
   - type: input
     id: "submitting_author"
@@ -157,7 +158,7 @@ body:
           required: false
         - label: has continuous integration setup, such as GitHub Actions CircleCI, and/or others.
           required: false
-  - type: select.selectize
+  - type: selectize
     id: "publication_options"
     attributes:
       label: Publication Options
